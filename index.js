@@ -17,7 +17,7 @@ function checkUserExists(req, res, next) {
   }
   return next();
 }
-const users = ["Diego", "Claudio", "Marcelo"];
+const users = ["Diego", "Claudio", "Marcelo, João"];
 
 function checkUserInArray(req, res, next) {
   const user = users[req.params.index];
